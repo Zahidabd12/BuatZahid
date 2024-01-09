@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi - Zahid!</title>
+</head>
+<body>
+<div id="ye">
+  <center><h1>Bantu Evaluasi Seorang Zahid</h1></center>
+    <center><button onclick="myFunction()" id="btn">Click Me</button></center>
+  </div>
+
+<div id="myDIV">
+  <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMtg-GglNljAEMTSw6dTuE9Qd8iklTQTOOTVRuaT0oXSEXMw/viewform?embedded=true" width="640" height="1284" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+</div>
+<style type="text/css">
+  #myDIV {
+    display: none;
+  }
+  </style>
+  
+  <script type="text/javascript">
+  function myFunction() {
+  var x = document.getElementById("myDIV");
+  const ya = document.getElementById('ye');
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+    ya.style.display = 'none';
+  }
+}
+  </script>
+</body>
+</html>
